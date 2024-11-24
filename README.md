@@ -1,3 +1,22 @@
+# Problem Statement
+
+Retail businesses often deal with large datasets of customer transactions. To maximize profitability and improve customer satisfaction, it's essential to understand customer behavior and segment customers into meaningful groups based on their purchasing patterns. This segmentation allows businesses to:
+
+- **Personalize marketing strategies** (e.g., targeting high-value customers with exclusive offers).
+- **Optimize inventory** by understanding the preferences of different customer groups.
+- **Identify potential churners** to implement retention strategies.
+- **Enhance customer experience** by catering to their specific needs.
+
+### The task involves:
+
+- **Analyzing customer purchase data** (e.g., Recency, Frequency, Monetary (RFM) values).
+- **Applying clustering algorithms** such as:
+  - **K-means Clustering**: A popular partition-based clustering algorithm.
+  - **Hierarchical Clustering**: A method to form a dendrogram showing hierarchical relationships between clusters.
+- **Evaluating and comparing** the results from the clustering models to draw actionable insights.
+
+---
+
 # Online Retail Dataset Overview
 
 The **Online Retail** dataset contains information about online retail transactions. Each column in the dataset represents a different aspect of the transaction, and understanding these columns is crucial for analyzing retail performance and customer behavior.
