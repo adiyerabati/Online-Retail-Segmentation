@@ -1,5 +1,3 @@
-# Online-Retail-Segmentation
-
 # Online Retail Dataset Overview
 
 The **Online Retail** dataset contains information about online retail transactions. Each column in the dataset represents a different aspect of the transaction, and understanding these columns is crucial for analyzing retail performance and customer behavior.
@@ -115,4 +113,30 @@ In this case, **3 clusters** was chosen because it has the second-highest silhou
 
 ---
 
-By using both silhouette analysis and the elbow method, you can find the optimal number of clusters for your data, balancing cluster cohesion and separation.
+# Our Analytical Results
+
+## Inference from K-Means Clustering with 3 Cluster Ids
+
+- **Cluster Id 1**:
+  - Customers in this cluster have the **highest amount of transactions** compared to other customers.
+  - These customers are **frequent buyers** and likely represent the most valuable segment for the business.
+
+- **Cluster Id 2**:
+  - Customers in this cluster are **not recent buyers**, making them the **least important** from a business perspective.
+  - These customers might need re-engagement strategies.
+
+---
+
+## Inference from Hierarchical Clustering with 3 Cluster Labels
+
+- **Cluster Label 2**:
+  - Customers in this cluster have the **highest amount of transactions** compared to other customers.
+  - These customers are **frequent buyers**, making them a key target for retention and personalized marketing.
+
+- **Cluster Label 0**:
+  - Customers in this cluster are **not recent buyers**, so they hold the **least importance** from a business perspective.
+  - This cluster could be targeted for re-engagement or promotional campaigns.
+
+---
+
+By analyzing the clustering results, we can gain valuable insights into customer behavior and make data-driven decisions to improve business strategies, such as targeting frequent buyers for loyalty programs or re-engaging customers who have not made recent purchases.
